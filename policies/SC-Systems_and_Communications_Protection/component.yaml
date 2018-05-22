@@ -76,7 +76,7 @@
   narrative:
     - text: |
         'Microsoft Azure manages network boundary devices, which are designed
-        to fail securely. This control is inherited from Microsoft Azure. 
+        to fail securely. This control is inherited from Microsoft Azure.
 
         NOTE: Customers can implement additional Azure services (e.g. load
         balancer, application gateway) to support Azure boundary protection
