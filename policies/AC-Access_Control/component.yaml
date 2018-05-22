@@ -1,0 +1,161 @@
+##
+## BEGINNING OF:
+## ACCESS CONTROL
+##
+## Reminder of "implementation_status" codes:
+##  - implementation_status: unsatisfied
+##  - implementation_status: unknown
+##  - implementation_status: planned
+##  - implementation_status: partial
+##  - implementation_status: complete
+##  - implementation_status: none
+
+- control_key: AC-7 (2)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: not applicable
+  narrative:
+    - text: |
+        'There are no customer-controlled mobile devices within the scope of
+        systems deployed on Azure; all mobile device protection controls are
+        implemented and managed by Microsoft. This control is inherited from
+        Microsoft Azure.
+
+        This control is not applicable to the Microsoft Azure environment
+        because Microsoft Azure does not issue or allow connectivity via
+        mobile devices to Microsoft Azure.'
+
+- control_key: AC-18
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: not applicable
+  narrative:
+    - key: a
+      text: |
+        'Microsoft Azure does not permit wireless access within the Azure
+        environment; all wireless protection controls are implemented and
+        managed by Microsoft. This control is inherited from Microsoft Azure.
+
+        This control is not applicable to Microsoft Azure environment because
+        wireless access is not permitted within the Microsoft Azure networking
+        environment.'
+    - key: b
+      text: |
+        'Microsoft Azure does not permit wireless access within the Azure
+        environment; all wireless protection controls are implemented and
+        managed by Microsoft. This control is inherited from Microsoft Azure.
+
+        This control is not applicable to the Microsoft Azure environment
+        because wireless access is not permitted within the Microsoft Azure
+        network environment. Microsoft Azure regularly scans for rogue wireless
+        signals on at least a quarterly basis within Microsoft Azure 
+        datacenters. Any rogue signals are investigated and removed.'
+
+- control_key: AC-18 (1)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: not applicable
+  narrative:
+    - text: |
+        'Microsoft Azure does not permit wireless access within the Azure
+        environment; all wireless protection controls are implemented and
+        managed by Microsoft. This control is inherited from Microsoft Azure.
+
+        This control is not applicable to the Microsoft Azure environment
+        because wireless access is not permitted within the Microsoft Azure
+        network environment.'
+
+- control_key: AC-18 (3)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: not applicable
+  narrative:
+    - text: |
+        'Microsoft Azure does not permit wireless access within the Azure
+        environment; all wireless protection controls are implemented and
+        managed by Microsoft. This control is inherited from Microsoft Azure.
+
+        This control is not applicable to the Microsoft Azure environment
+        because wireless access is not permitted within the Microsoft Azure
+        network environment.'
+
+- control_key: AC-18 (4)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: not applicable
+  narrative:
+    - text: |
+        'Microsoft Azure does not permit wireless access within the Azure
+        environment; all wireless protection controls are implemented and
+        managed by Microsoft. This control is inherited from Microsoft Azure.
+
+        This control is not applicable to the Microsoft Azure environment
+        because wireless access is not permitted within the Microsoft Azure
+        network environment.'
+
+- control_key: AC-18 (5)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: not applicable
+  narrative:
+    - text: |
+        'Microsoft Azure does not permit wireless access within the Azure
+        environment; all wireless protection controls are implemented and
+        managed by Microsoft. This control is inherited from Microsoft Azure.
+
+        This control is not applicable to the Microsoft Azure environment
+        because wireless access is not permitted within the Microsoft Azure
+        network environment.'
+       
+- control_key: AC-19
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: not applicable
+  narrative:
+    - key: a
+      text: |
+        'There are no customer-controlled mobile devices within the scope of
+        systems deployed on Azure; all mobile device protection controls are
+        implemented and managed by Microsoft. This control is inherited
+        from Azure.
+
+        Microsoft Azure does not allow mobile devices within the Azure
+        boundary. As such, this control is not applicable to Microsoft Azure.'
+    - key: b
+      text: |
+        'There are no customer-controlled mobile devices within the scope of
+        systems deployed on Azure; all mobile device protection controls are
+        implemented and managed by Microsoft. This control is inherited
+        from Azure.
+
+        Microsoft Azure does not allow mobile devices within the Azure
+        boundary. As such, this control is not applicable to Microsoft Azure.'
+
+- control_key: AC-19 (5)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: not applicable
+  narrative:
+    - text: |
+        'There are no customer-controlled mobile devices within the scope of
+        systems deployed on Azure; all mobile device protection controls are
+        implemented and managed by Microsoft. This control is inherited
+        from Azure.
+
+        Microsoft Azure does not allow mobile devices within the Azure
+        boundary. As such, this control is not applicable to Microsoft Azure.'
+
+- control_key: AC-20 (2)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: not applicable
+  narrative:
+    - text: |
+        'Customers do not have physical access to any system resources in
+        Microsoft Azure datacenters and there are no customer-controlled
+        portable storage devices within the scope of systems deployed on
+        Microsoft Azure. As such, this control is inherited from Microsoft Azure.
+
+        Thisc ontrol is not applicable to Microsoft Azure environment because
+        Microsoft does not allow customer-controlled portable storage devices
+        within the Microsoft Azure environment.'

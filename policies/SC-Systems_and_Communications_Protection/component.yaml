@@ -1,0 +1,98 @@
+##
+## BEGINNING OF:
+## SYSTEMS AND COMMUNICATIONS PROTECTION
+##
+
+- control_key: SC-7 (4)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: complete
+  narrative:
+    - key: a
+      text: |
+        'Customers are not responsible for data center operations (to unclude
+        telecommunication services). All telecommunication services are
+        provided and managed by Microsoft Azure. This control is inherited
+        from Azure.
+
+        Microsoft Azure establishes edge routers as the managed interface for
+        each telecommunication service. Edge routers serve as the first layer
+        of network devices into the Microsoft Azure environment. These devices
+        are managed by the Microsoft Azure networking team within Microsoft
+        Azure.'
+    - key: b
+      text: |
+        'Customers are not responsible for data center operations (to unclude
+        telecommunication services). All telecommunication services are
+        provided and managed by Microsoft Azure. This control is inherited
+        from Azure.
+
+        Microsoft Azure Networking establishes routing policies at teh edge
+        to only allow the export of 8075 public blocks to Microsoft Azure
+        Border Gateway (BGP) peers. Edge Access Control Lists (ACLs) are
+        applied inbound from all peering interfaces. The policy explicitly
+        filters non "edge protocols" (SQL, RPC, 445, 135-139) from entering
+        the network from untrusted sources.'
+    - key: c
+      text: |
+        'Customers are not responsible for data center operations (to unclude
+        telecommunication services). All telecommunication services are
+        provided and managed by Microsoft Azure. This control is inherited
+        from Azure.
+
+        Microsoft Azure protects the confidentiality and integrity of
+        information being transmitted, which is documented in SC-8 and SC-9
+        of the Microsoft Azure SSP.'
+    - key: d
+      text: |
+        'Customers are not responsible for data center operations (to unclude
+        telecommunication services). All telecommunication services are
+        provided and managed by Microsoft Azure. This control is inherited
+        from Azure.
+
+        Microsoft Azure documents each exception to the traffic flow
+        policy via the security review process with a supporting
+        mission/business need and duration of that need. In the event an
+        exception is needed from the traffic flow policy, a security review
+        (SR) is documented and reviewed by the security team.'
+    - key: e
+      text: |
+        'Customers are not responsible for data center operations (to unclude
+        telecommunication services). All telecommunication services are
+        provided and managed by Microsoft Azure. This control is inherited
+        from Azure.
+
+        Microsoft Azure documents each exception to the traffic flow policy via
+        the Microsoft Azure security exception process with a supporting
+        mission/business need and duration of that need. In the event an
+        exception is needed from the traffic flow policy, a security
+        review (SR) is documented and reviewed by the Microsoft Azure
+        security team.'
+
+- control_key: SC-7 (18)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: complete
+  narrative:
+    - text: |
+        'Microsoft Azure manages network boundary devices, which are designed
+        to fail securely. This control is inherited from Microsoft Azure. 
+
+        NOTE: Customers can implement additional Azure services (e.g. load
+        balancer, application gateway) to support Azure boundary protection
+        mechanisms already in place.
+
+        Microsoft Azure deploys geographically separate and redundant Gateway
+        servers. When a Gateway system fails, it fails securely and access
+        is restricted to the environment. In order to establish a connection
+        to the Azure environment, a user must establish a separate connection
+        to an active Gateway server managed by Azure.
+
+        Additionally, if Azure Infrastructure network devices (including
+        edge routers, access routers, load balancers, aggregration switches,
+        and TORS) fail, the affected circuit becomes disconnected, thereby
+        failing securely. A failure of an Azure network device cannot lead to,
+        or cause information external to the system to enter the device, nor
+        can a failure permit unauthorized information release. The built in
+        redundancy allows Azure assets to fail without influencing
+        availability.'

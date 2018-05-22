@@ -1,0 +1,26 @@
+##
+## BEGINNING OF:
+## AUDIT AND ACCOUNTABILITY
+##
+
+- control_key: AU-6 (6)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: not applicable
+  narrative:
+    - text: |
+        'Customers do not have access to any physical system components
+        in Azure datacenters; all physical resources are audited and managed
+        by Microsoft Azure. This control is inherited from Azure.
+
+        The security incident management team combines the analysis of audit
+        records with physical security monitoring data as needed to aid in
+        incident investigations. Any breaches or physical security incidents
+        are reported through the incident reporting process described in IR-6
+        by the physical security team. Information from such physical security
+        incidents can then be compared to audit logging records by the
+        Security Operations Center (SOC) to further identify and investigate
+        suspicious behavior. Furthermore, when a physical incident is detected,
+        the SOC will use the related physical monitoring data and correlate it
+        with audit records to determine if there was any associated logical
+        breach or suspicious behavior.'

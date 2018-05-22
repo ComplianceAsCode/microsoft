@@ -1,0 +1,23 @@
+##
+## BEGINNING OF:
+## SYSTEM AND INFORMATION INTEGRITY
+##
+- control_key: SI-4 (14)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: complete
+  narrative:
+    text: |
+      'Microsoft Azure is responsible for all datacenter operational security.
+      Microsoft Azure is responsible for an intrusion detection system
+      identifying rogue wireless devices. This control can be inherited
+      from Microsoft Azure.
+
+      Microsoft Azure regularly scans for rogue wireless signals on at least
+      a quarterly basis within the Microsot datacenters. Results are logged
+      and documented by a security incident management team. Any rogue signals
+      are investigated and removed. Microsoft Azure has implemented a solution
+      to continuosly monitor and alarm on detection of rogue wireless signals.
+      This system has been deployed to Microsoft Azure accreditation boudary
+      Azure datacenters in a phased deployment. This system allows for wireless
+      scan data to be monitored continuously by various monitoring tools.'
