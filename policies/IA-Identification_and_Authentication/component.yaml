@@ -18,7 +18,7 @@
         is required. Local access -- user access (or processes acting on
         behalf of users) to Azure Infrastructure via direct connection without
         the use of a network -- to every component within Azure environment
-        is physical restricted. Organizational user administration is 
+        is physical restricted. Organizational user administration is
         performed remotely unless a specific troubleshooting event occurs.
         Therefor, there is no local access unless physical access is
         required. Local Administrator access must only be used to troubleshoot
