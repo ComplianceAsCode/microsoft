@@ -1,0 +1,33 @@
+##
+## BEGINNING OF:
+## CONFIGURATION MANAGEMENT
+##
+
+- control_key: CM-7 (2)
+  standard_key: NIST-800-53
+  covered_by: []
+  implementation_status: not applicable
+  narrative:
+    - key: a
+      text: |
+        'There are no customer-controlled physical resources within the scope
+        of systems deployed on Azure; all physical resource protection controls
+        are implemented and managed by Microsoft. This control is inherited
+        from Azure.
+
+        Microsoft Azure customer content is never stored outside of Microsoft
+        Azure, which is physically located within the continental United States.
+        Microsoft Azure personnel do not travel with devices contained within
+        the Microsoft Azure inventory. As such, this control is not applicable
+        to Microsoft Azure.'
+    - key: b
+      text: |
+        'There are no customer-controlled physical resources within the scope
+        of systems deployed on Azure; all physical resource protection controls
+        are implemented and managed by Microsoft. This control is inherited
+        from Azure.
+
+        Microsoft Azure customer content is never stored outside of Microsoft
+        Azure and Microsoft Azure personnel do not travel with devices
+        contained within the Microsoft Azure inventory, this this control is
+        not applicable.'
